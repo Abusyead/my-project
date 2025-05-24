@@ -1,16 +1,18 @@
 import './App.css'
 import { Button } from './Components/common/Button'
-import Title from './Components/common/Title'
+import Footer from './Components/Shared/Footer'
+import { MobileMenu } from './Components/Shared/MobileMenu'
+import {Navbar} from './Components/Shared/Navbar'
+
 
 function App() {
  
 
   return (
-    <>
-        <Button className="">Primary Buttoon</Button>
-        <Button className="bg-white text-black">Secondary Button </Button>
-        <Title gradient="Solution">Problem & </Title>
-    </>
+    <main className='bg-sky-300/50'> 
+      <Navbar></Navbar>
+      <Footer></Footer> 
+    </main>
   )
 }
 
