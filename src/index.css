@@ -24,3 +24,12 @@
 .bg-grad-secondary {
   background: linear-gradient(161.45deg , #00D2ff -5.54% , #9AEDFF 50.11%);
 }
+
+
+.footer-border{
+    border-image-source: linear-gradient(180deg, #00D2FF 0%, #059DBE 100%);
+
+    border-image-slice: 1;
+
+
+}

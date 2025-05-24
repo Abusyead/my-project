@@ -29,8 +29,7 @@ export const Navbar = () => {
                            <span className='block w-6 h-0.5 bg-black' />
                            <span className='block w-6 h-0.5 bg-black' /> 
                         </div>
-                         
-
+                        
                      </button>
                     <Button>Get Started Today</Button>
                 </div>
