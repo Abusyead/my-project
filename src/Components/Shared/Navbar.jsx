@@ -11,9 +11,9 @@ export const Navbar = () => {
     const [isMenuOpen , setisMenuOpen ] =  useState (false);
     const toggleMenu = () => setisMenuOpen((prv) => !prv)
   return (
-    <nav  className="py-5">
+    <nav  className="py-5 ">
         <Contaner>
-            <div className='flex justify-between items-center gap-2.5 px-2 sm:px-5 xl:px-[30px] py-2 sm:py-3.5  xl:py-5 bg-white rounded-full'>
+            <div className='flex justify-between items-center gap-2.5 px-2 sm:px-5 xl:px-[30px] py-2 sm:py-3.5  xl:py-5 bg-white rounded-full max-w-[1248px] mx-auto'>
                 <Logo />
                 <div className="hidden lg:flex justify-center items-center gap-3 xl:gap-4 ">
                    {navItems.map(({label , link} , i)=>(
