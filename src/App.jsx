@@ -1,6 +1,7 @@
 import { Hero } from './Components/Home/Hero';
 import { Footer } from './Components/Shared/Footer'; 
 import { Navbar } from './Components/Shared/Navbar';
+import ProblemSolutionCard from './Components/Home/ProblemSolutionCard';
 import ProblemSolution from './Components/Home/ProblemSolution';
 
 function App() {
