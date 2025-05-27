@@ -1,5 +1,5 @@
 import { cn } from '../../lib/utils'
-import TextGradient from './TextGradient'
+import TextGradient from './TextGradient' 
 
 export const Title = ({children , className , gradient}) => {
   return (
