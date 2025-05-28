@@ -4,7 +4,7 @@ import { navItems , Socialicon } from "../../lib/db"
 
 export const Footer = () =>{
     return(
-        <footer className="mt-[2000px]">
+        <footer>
             <Contaner>
                 <div className="flex flex-col sm:flex-row justify-between items-center gap-2.5">
                     <h1 className="font-space text-xl sm:text-2xl lg:text-lg xl:text-4xl font bold">

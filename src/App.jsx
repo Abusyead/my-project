@@ -3,6 +3,7 @@ import { Footer } from './Components/Shared/Footer';
 import { Navbar } from './Components/Shared/Navbar'; 
 import ProblemSolution from './Components/Home/ProblemSolution';
 import Reviews from './Components/Home/Reviews';
+import Partners from './Components/Home/Partners';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
           </div>
           <ProblemSolution />
           <Reviews />
+          <Partners />
           <Footer />
+          
     </main>
   )}
   

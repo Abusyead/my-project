@@ -100,3 +100,13 @@ export const reviewData =[
     },
      
 ]
+
+
+export const parData =[
+    {img:"img/par-img1.png"},
+    {img:"img/par-img2.png"},
+    {img:"img/par-img3.png"},
+    {img:"img/par-img4.png"},
+    {img:"img/par-img5.png"},
+    {img:"img/par-img6.png"},
+]
