@@ -1,8 +1,8 @@
 import { Hero } from './Components/Home/Hero';
 import { Footer } from './Components/Shared/Footer'; 
-import { Navbar } from './Components/Shared/Navbar';
-import ProblemSolutionCard from './Components/Home/ProblemSolutionCard';
+import { Navbar } from './Components/Shared/Navbar'; 
 import ProblemSolution from './Components/Home/ProblemSolution';
+import Reviews from './Components/Home/Reviews';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
               <Hero />
           </div>
           <ProblemSolution />
-
+          <Reviews />
           <Footer />
     </main>
   )}

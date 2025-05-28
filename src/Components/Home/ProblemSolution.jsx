@@ -9,7 +9,7 @@ function ProblemSolution() {
     <section className='pt-10 md:pt-20 lg:pt-28 xl:pt-32'>
         <Contaner>
             <ProblemSolutionHeader /> 
-            <div className='pt-10 grid grid-cols-4 place-items-center gap-[30px]'>
+            <div className='pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 place-items-center gap-[30px]'>
                 {CardData.map((problem , i)=>(
                   <ProblemSolutionCard {...problem}
                     // img={problem.img} 
